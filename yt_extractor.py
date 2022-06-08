@@ -6,7 +6,7 @@ ydl = youtube_dl.YoutubeDL()
 def get_info(url):
     with ydl:
         try:
-            result = ydl.extract_info(url, download=True)
+            result = ydl.extract_info(url, download=False)
         except DownloadError:
             return None
 
