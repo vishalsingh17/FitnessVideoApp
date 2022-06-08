@@ -9,11 +9,6 @@ SCHEMA = 'workout_repo'
 TABLE = 'workouts'
 TABLE_TODAY = 'workout_today'
 
-data = {
-    'video_id': '123',
-    'title': 'Test1'
-}
-
 def insert_workout(workout_data):
     return db.insert(SCHEMA, TABLE, [workout_data])
 
