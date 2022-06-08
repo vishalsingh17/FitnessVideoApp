@@ -12,4 +12,14 @@ def get_info(url):
 
     if "entries" in result:
         video = result['entries'][0]
+    else:
+        video = result
     
+    infos = ['id', 'title', 'channel', 'view_count', 'like_count', 'channel_id', 'duration', 'categories', 'tags']
+
+    def key_name(key):
+        if key == 'id':
+            return 'video_id'
+        return key
+
+    return {key_name(key): video[key] for key in infos}
