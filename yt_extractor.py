@@ -5,4 +5,11 @@ ydl = youtube_dl.YoutubeDL()
 
 def get_info(url):
     with ydl:
-        results = ydl.extract_info()
+        try:
+            result = ydl.extract_info(url, download=False)
+        except DownloadError:
+            return None
+
+    if "entries" in result:
+        video = result['entries'][0]
+    
