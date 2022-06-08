@@ -14,7 +14,7 @@ data = {
     'title': 'Test1'
 }
 
-def insert_data(workout_data):
+def insert_workout(workout_data):
     return db.insert(SCHEMA, TABLE, [workout_data])
 
 def delete_workout(workout_id):
@@ -34,4 +34,3 @@ def update_workout_today(workout_data, insert=False):
     if insert:
         return db. insert(SCHEMA, TABLE_TODAY, [workout_data])
     return db.update(SCHEMA, TABLE_TODAY, [workout_data])
-
