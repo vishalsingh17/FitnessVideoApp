@@ -18,7 +18,7 @@ def get_duration_text(duration_s):
         text += f'{minutes:02d}:{seconds:02d}'
     return text
 
-st.title('WORKOUT APP')
+st.title('WORKOUT TRACKER')
 
 menu_options = ("Today's Workout", "All Workouts", "Add Workout")
 selection = st.sidebar.selectbox("Menu", menu_options)
