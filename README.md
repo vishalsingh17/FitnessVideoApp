@@ -45,7 +45,7 @@ NOTE - Store your API key and SECRET key in your environment variable for eshtab
 
 
 
-## ✍🏻Acknowledgements
+## 🔗Important References
 
  - [Streamlit](https://streamlit.io/)
  - [Harper DB](https://harperdb.io/)
