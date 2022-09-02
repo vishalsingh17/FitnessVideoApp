@@ -47,9 +47,8 @@ NOTE - Store your API key and SECRET key in your environment variable for eshtab
 
 ## ✍🏻Acknowledgements
 
- - [Get Binance API](https://www.binance.com/en/support/faq/360002502072)
- - [TA-LIB Github](https://github.com/mrjbq7/ta-lib)
- - [KLine Github](https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md#klinecandlestick-data)
+ - [Streamlit](https://streamlit.io/)
+ - [Harper DB](https://harperdb.io/)
 
 
 ## 🎯App Screenshots
